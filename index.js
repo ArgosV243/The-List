@@ -88,7 +88,7 @@ addButton.addEventListener('click', () => {
     addItem();
 })
 
-
+//REMOVE FIX
 removeAllButton.addEventListener('click', removeItems);
 
 saveButton.addEventListener('click', () => alert
