@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("https://static.wikia.nocookie.net/garrysmod/images/9/96/AgdpM.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  main {
+    background-color: #C0C0C0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #instructions {
+    text-align: center;
+  }
+
+  #warning {
+    color: red;
+    text-align: center;
+  }
+
+  .listItemCompleted {
+    width: auto; 
+    
+    
+}
+
+.itemInput {
+    width: auto; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.listItemCompleted:checked + .itemInput {
+    background: red;
+    text-decoration: line-through;
+}
+
+#buttonStuff {
+    text-align: center;
+}
+
+#addToList {
+    color: white;
+    font-weight: bold;
+    background: green;
+    cursor: pointer;
+}
+
+#removeItems {
+    color: white;
+    font-weight: bold;
+    background: red;
+    cursor: pointer;
+}
+
+#saveItems {
+    color: white;
+    font-weight: bold;
+    background: blue;
+    cursor: pointer;
+}
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

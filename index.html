@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>To Do List</title>
+</head>
+<body>  
+    <header>
+        <h1 id="title">THE LIST</h1>
+    </header>
+            <nav id="buttonStuff">
+                <button id="addToList">Add thing to do</button>
+                <button id="removeItems">Remove from list</button>
+                <button id="saveItems">Save</button>
+            </nav>
+        <main>
+           <div id="instructions"><strong> Add stuff to your to do list by clicking and entering what you need to do in the field selected.</strong></div>
+            <div id="listItems"></div>     
+                <template id="itemTemplate">
+                        <div class="listItem">
+                            <input type="checkbox" class="listItemCompleted">
+                            <input type="text"class="itemInput" placeholder="What to do..."> 
+                        </div>
+                    </div>
+                </template>
+            <div id="warning"><strong> There is no archive feature but all elements will be stored in local memory. </strong></div>
+        </main>
+    <footer>
+        I'm a footer and I will move because I'm a footer!
+    </footer>
+</body>
+<script src="./index.js"></script>
+</html>
